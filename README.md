@@ -6,7 +6,6 @@ The municipalities are regarded as the nodes of networks. The highway roads are 
 
 
 The columns of "belgian_municipalities" file contains information (i, name, lat, long, pop) where
-
           i: node number,          
           name: name of municipality,          
           lat: latitude of municipality,          
