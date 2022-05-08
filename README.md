@@ -14,7 +14,7 @@ The rows of "belgian_municipalities" file present information (i, name, lat, lon
           pop: population of the municipality.
 
 
-The files in the BE1, BE2, and BE3 folders contain information about the BE1, BE2, and BE3 data sets described in the aforementioned paper.  The data sets differ in nodes, edges, node weights and thus vehicle flow volumes.  
+The files in the BE1, BE2, and BE3 folders contain information about the BE1, BE2, and BE3 data sets described in the aforementioned paper.  The data sets differ in nodes, edges, node weights, and thus vehicle flow volumes.  
 There are "nodes", "edges" and "flows" files in each folder.
 
 The rows of "nodes" files present information (i, w) where
