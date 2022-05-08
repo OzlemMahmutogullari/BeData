@@ -31,4 +31,4 @@ The rows of "flows" files present information (o, d, f) where
 
           o: origin of flow,
           d: destination of flow,
-          f: nominal flow volume between o and d.
+          f: nominal flow volume of o-d pair.
