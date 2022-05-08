@@ -5,7 +5,7 @@ The files in this repository include the information of data sets described in "
 The municipalities are regarded as the nodes of networks. The highway roads are considered for the edges of networks. The node weights are calculated based on the populations of municipalities.
 
 
-The columns of "belgian_municipalities" file contains information (i, name, lat, long, pop) where
+The rows of "belgian_municipalities" file present information (i, name, lat, long, pop) where
 
           i: node number,          
           name: name of municipality,          
@@ -14,6 +14,21 @@ The columns of "belgian_municipalities" file contains information (i, name, lat,
           pop: population of municipality.
 
 
-Folders BE1, BE2 and BE3 includes the files that contain the information regarding BE1, BE2 and BE3 data sets described in the aforementioned paper. The data sets differ in nodes, edges, node weights and thus vehicle flow volumes.  
+Folders BE1, BE2 and BE3 include the files that contain the information regarding BE1, BE2 and BE3 data sets described in the aforementioned paper. The data sets differ in nodes, edges, node weights and thus vehicle flow volumes.  
+Each folder has "nodes", "edges" and "flows" files.
 
-Each folder has 
+The rows of "nodes" files present information (i, w) where
+
+          i: node number,
+          w: weight of node.
+          
+The rows of "edges" files present information (i, j, l) where
+
+          i, j: node numbers,
+          l: length of edge between nodes i and j.
+          
+The rows of "flows" files present information (o, d, f) where
+
+          o: origin of flow,
+          d: destination of flow,
+          f: nominal flow volume between o and d.
